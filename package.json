@@ -1,0 +1,9 @@
+{
+    "name": "simple_notes",
+    "scripts": {},
+    "devDependencies": {
+        "@parcel/config-webextension": "^2.9.3",
+        "@types/chrome": "^0.0.241",
+        "parcel": "^2.9.3"
+    }
+}

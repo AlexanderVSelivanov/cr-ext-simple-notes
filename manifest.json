@@ -1,0 +1,14 @@
+{
+    "name": "SimpleNotes",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "Simple notes extension.",
+    "icons": {
+        "128": "images/icon-128.png",
+        "16": "images/icon-16.png"
+    },
+    "background": { "service_worker": "service-worker.js" },
+    "action": {},
+    "side_panel": { "default_path": "sidepanel.html" },
+    "permissions": [ "sidePanel", "storage"]
+}

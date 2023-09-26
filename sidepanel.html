@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Notes</title>
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+
+<body class="flex-container">
+    <section id="note-add" class="flex-container">
+        <textarea id="note-add-text"></textarea>
+        <button id="note-add-btn">Add new note</button>
+    </section>
+
+    <main id="list-container" class="flex-container"></main>
+
+    <template id="note-template">
+        <article class="note flex-container">
+            <textarea class="note-edit-text"></textarea>
+            <section class="note-controls">
+                <button class="note-update-btn">Update</button>
+                <button class="note-remove-btn">Remove</button>
+            </section>
+        </article>
+    </template>
+
+    <script src="sidepanel.js" type="module"></script>
+</body>
+
+</html>

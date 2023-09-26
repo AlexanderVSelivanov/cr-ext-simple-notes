@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // By default VSCode try to use Chrome Dev https://www.google.com/chrome/dev/
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "runtimeArgs": ["--load-extension=${workspaceFolder}"],
+        },
+        {
+            // Run chrome like google-chrome --remote-debugging-port=9222
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach Chrome",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}",
+        }
+    ]
+}

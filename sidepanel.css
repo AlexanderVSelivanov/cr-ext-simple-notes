@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    /* resize: vertical; */
+    resize: none;
+    overflow: hidden;
+    height: 25px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#list-container {
+    overflow: auto;
+    flex-grow: 1;
+    gap: 3px;
+    padding: 3px;
+}
+
+.note {
+    gap: 3px;
+    padding: 5px 0;
+}
+
+.note-controls {
+    display: flex;
+    gap: 10px;
+
+    > button {
+        flex-grow: 1;
+    }
+}
+
+.note-remove-btn {
+    color: red;
+}
+
+#note-add {
+    gap: 3px;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+#note-add-btn {
+    color: green;
+}
